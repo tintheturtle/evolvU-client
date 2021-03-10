@@ -7,7 +7,7 @@ const Footer = () => {
     return (
             <div className="footer">
                 <div className="container">
-                    <div className = "row d-flex"> {/*Row such that columns are aligned to the center of page*/}
+                    <div className = "row d-flex justify-content-center"> {/*Row such that columns are aligned to the center of page*/}
 
                         {/*This is the column for the "About" category in the footer*/}
                             <div className= "col-xs-6 px-3" style={{textAlign: "left"}}>
