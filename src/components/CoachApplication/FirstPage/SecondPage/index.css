@@ -1,0 +1,14 @@
+#ApplicationPage {
+    padding: 5rem;
+    background: white;
+    height: 110vh;
+}
+
+#centerBlock{
+    margin-top: 0px;
+    padding: 50px;
+    padding-right:150px;
+    background-color: #9FC0DE;
+    width: 70%;
+    text-align: center;
+}

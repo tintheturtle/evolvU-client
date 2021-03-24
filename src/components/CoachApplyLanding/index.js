@@ -11,7 +11,7 @@ const CoachApplyLanding = () => {
                 
                 <div id = "coachApp">
                 
-                    <div id = "centerBlock" className = "col-xs mx-auto">
+                    <div id = "centerBlock" className = "col-xs mx-auto" style = {{textAlign: "left"}}>
 
                         <h3 id = "heading">
                             Coaching Jobs

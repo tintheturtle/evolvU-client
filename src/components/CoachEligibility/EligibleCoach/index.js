@@ -3,12 +3,15 @@ import Button from 'react-bootstrap/Button';
 import Approved from "./Approved/index.js";
 
 const EligibleCoach = () => {
-    const [area, setArea] = useState(
+    const [area, setArea] = useState(true)
 
+    if (area){
+        return(
+            
         <div id="EligibilityPage">
 
             <div id = "buffer"></div>
-        {/*default state, before any questions are answered */}
+            {/*default state, before any questions are answered */}
             <div className ="container">
                 
                 <h1 id = "Title">Am I Eligible?</h1> 
@@ -67,19 +70,21 @@ const EligibleCoach = () => {
                         </li>
                     </ol>
                     
-
-                    <Button variant = "dark" disableElevation onClick={() => setArea(<Approved/>)}>
+                    {/*form check and radio*/}
+                    <Button variant = "dark" disableElevation onClick={() => setArea(false)}>
                         Get Results
                     </Button>
 
                 </div>
             </div>
-        </div>
-    )
+    </div>
+
+        )
+    }
 
     return(
         <div>
-            {area}
+            <Approved/>
         </div>
     )
 }

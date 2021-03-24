@@ -9,9 +9,9 @@ const CoachApplication = () => {
     return( 
         
         <div id= "CoachAppPage">
-            <div  id = "headerMessage" style = {{paddingTop:"50px", height: "50px"}}className = "col-sm-5 mx-auto">
-                <h1>Evolve and Start your
-                    <br/> Journey as an Evolve U Coach</h1>
+            <div  id = "headerMessage" style = {{paddingTop:"50px", height: "80px"}}className = "col-sm-5 mx-auto">
+                <h1>Apply and Start Your Health
+                    <br/>and Wellness Coaching Journey with EvolvU!</h1>
             </div>
 
             {area} 

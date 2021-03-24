@@ -13,9 +13,10 @@ const Footer = () => {
                             <div className= "col-xs-6 px-3" style={{textAlign: "left"}}>
                                 <h6>About</h6>
                                 <ul className="list-unstyled" >
-                                    <li><Link to="/about"><small>About </small></Link></li>
+                                    <li><Link to="/about"><small>About Us</small></Link></li>
                                     <li><Link to="/contact"><small>Contact</small></Link></li>
                                     <li><Link to="/feedback"><small>Feedback</small></Link></li>
+                                    <li><Link to="/testimonial"><small>Testimonials</small></Link></li>
                                 </ul>
                             </div>
                        
@@ -27,8 +28,7 @@ const Footer = () => {
                                     <li><Link to="/faq"><small>FAQ</small></Link></li>
                                     <li><Link to="/safety"><small>Safety</small></Link></li>
                                     <li><Link to="/info"><small>How EvolveU works</small></Link></li>
-                                    <li><Link to="/refunds"><small>Refund Policy</small></Link></li>
-                                    <li><Link to="/testimonials"><small>Testimonials</small></Link></li>
+                                    <li><Link to="/privacy"><small>Privacy Policy</small></Link></li>
                             </ul>
                         </div>
 
